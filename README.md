@@ -21,6 +21,9 @@ Because the study uses **topic modelling** on a corpus of 943 articles (full tex
 
 The goal is that anyone with access to the same corpus (or a suitably similar one) can rerun, inspect, and extend the methodological steps.
 
-Add stuff.
+The root has all the code for the analysis in a single file (supplement_A2_all_code_for_Degrowth_and_Postgrowth_A_Systematic_Literature_Review_of_Growth_Critical_Science),
+with the processed data in data/public/
+All code is available also in single scripts in code_in_separate_files/.
+
 
 ---

@@ -1,19 +1,9 @@
 # Ignore everything by default
-*
 
 # Always keep these control files
 !.gitignore
 !.gitattributes
 !README.md
 !degrowth_tm_review.Rproj
+!supplements_for_submission/supplement_B4_code_14_make_topic_network_figure.R
 
-# Whitelist specific folders/files you want to share
-!supplements_for_submission/**
-!data/**
-!NAMESPACE
-
-# But still exclude junk inside whitelisted trees
-R/*.[Rr]history
-R/*.[Rr]Data
-R/.Rproj.user/
-data/processed/*.zip
