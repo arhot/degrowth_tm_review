@@ -1,15 +1,18 @@
+# Ignore everything by default
+*
+
 # Always keep these control files
 !.gitignore
 !.gitattributes
 !README.md
-!degrowth_tm_review.Rproj   # optional
+!degrowth_tm_review.Rproj
 
-# Whitelist specific folders/files you want to share:
-!Rsupplements_for_submission/**
+# Whitelist specific folders/files you want to share
+!supplements_for_submission/**
+!data/**
 !NAMESPACE
 
-
-# But still exclude junk inside whitelisted trees:
+# But still exclude junk inside whitelisted trees
 R/*.[Rr]history
 R/*.[Rr]Data
 R/.Rproj.user/
