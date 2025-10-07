@@ -1,0 +1,16 @@
+# Always keep these control files
+!.gitignore
+!.gitattributes
+!README.md
+!degrowth_tm_review.Rproj   # optional
+
+# Whitelist specific folders/files you want to share:
+!Rsupplements_for_submission/**
+!NAMESPACE
+
+
+# But still exclude junk inside whitelisted trees:
+R/*.[Rr]history
+R/*.[Rr]Data
+R/.Rproj.user/
+data/processed/*.zip
